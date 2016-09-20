@@ -9,7 +9,7 @@ module.exports = {
 
   attributes: {
 
-    name : { type: 'string',unique :'true' },
+    entityName : { type: 'string' },
     
     fields:{
    	collection:'fields',

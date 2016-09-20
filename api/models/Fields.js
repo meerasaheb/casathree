@@ -9,13 +9,12 @@ module.exports = {
 
   attributes: {
 
-    name : { type: 'string',unique :'true'},
+    attributeName : { type: 'string'},
 
-    type : { type: 'string'},
+    attributeType : { type: 'string'},
    
     entitys :{
-    	model:'entity',
-    	via:'fields'
+    	model:'entity'
     }
   }
 };
